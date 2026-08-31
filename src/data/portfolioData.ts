@@ -9,13 +9,13 @@ export const personalInfo = {
   phone: "(+251) 924451224",
   github: "https://github.com/Abebe60?tab=repositories",
   linkedin: "https://linkedin.com",
-  bio: `I am a Big Data Engineer and Data Analyst with experience in designing, building, and optimizing scalable ETL/ELT data pipelines. I specialize in ingesting, parsing, decoding, transforming, and enriching both structured and unstructured data from diverse data sources.
+  bio: `I am a Big Data Engineer and Data Analyst with 4 years of experience in designing, building, and optimizing scalable ETL/ELT data pipelines. I specialize in ingesting, parsing, decoding, transforming, and enriching both structured and unstructured data from diverse data sources.
 
 My expertise includes developing high-performance data processing solutions that convert complex raw data into clean, reliable, and analytics-ready datasets. I have hands-on experience working with large-scale data ingestion, data transformation, data enrichment, and data integration across multiple platforms.
 
 I work with technologies and storage solutions such as Elasticsearch, SQL databases, and modern big data ecosystems to build efficient, reliable, and scalable data architectures. My experience spans processing high-volume datasets, implementing data quality checks, automating workflows, and optimizing pipeline performance for real-time and batch processing.`,
   profileSummary: "I am healthy and capable of doing any type of work, disciplined and patient behavior. Excellent relations with everyone and free from any addiction.",
-  coverLetter: `I am excited to apply for Big Data Engineering & Data Analyst roles and contribute to high-impact technology teams. I have extensive experience designing, building, and optimizing scalable ETL/ELT data pipelines that ingest data from multiple sources and process structured, semi-structured, and unstructured data formats. My technical experience encompasses data extraction, parsing, decoding, cleaning, validation, transformation, and enrichment, as well as storing and organizing processed data in scalable storage systems like Elasticsearch and SQL databases.
+  coverLetter: `I am excited to apply for Big Data Engineering & Data Analyst roles and contribute to high-impact technology teams. With 4 years of hands-on experience, I have designed, built, and optimized scalable ETL/ELT data pipelines that ingest data from multiple sources and process structured, semi-structured, and unstructured data formats. My technical experience encompasses data extraction, parsing, decoding, cleaning, validation, transformation, and enrichment, as well as storing and organizing processed data in scalable storage systems like Elasticsearch and SQL databases.
 
 I am particularly interested in joining forward-thinking organizations focused on leveraging technology and data to create meaningful impact. I believe my background in data engineering, ETL development, data integration, and data quality can contribute to building reliable data systems that support informed decision-making. I welcome the opportunity to bring my technical skills, problem-solving ability, and passion for building effective data solutions to your team.`,
   educationList: [
@@ -41,7 +41,7 @@ I am particularly interested in joining forward-thinking organizations focused o
   stats: [
     { label: "B.Sc CGPA", value: "3.52" },
     { label: "Exit Exam Score", value: "71 / 100" },
-    { label: "Data Pipeline Exp", value: "8+ Yrs" },
+    { label: "Data Pipeline Exp", value: "4 Yrs" },
     { label: "English Proficiency", value: "Fluent" }
   ]
 };
@@ -160,24 +160,24 @@ export const skillCategories: SkillCategory[] = [
     title: "Big Data Engineering & Storage",
     description: "Designing scalable ETL/ELT pipelines, parsing, decoding, transforming, and enriching data.",
     skills: [
-      { name: "ETL / ELT Pipelines", level: 96, experience: "Specialty", icon: "GitBranch", popular: true },
-      { name: "Logstash", level: 95, experience: "Primary Tool", icon: "GitMerge", popular: true },
-      { name: "Elasticsearch", level: 95, experience: "Primary Tool", icon: "Search", popular: true },
-      { name: "Python", level: 94, experience: "Core Stack", icon: "FileCode", popular: true },
-      { name: "Go (Golang)", level: 88, experience: "Core Stack", icon: "Zap", popular: true },
-      { name: "Ruby", level: 85, experience: "Data Parsing", icon: "Code2" },
-      { name: "SQL & Relational DBs", level: 90, experience: "Postgres/SQL", icon: "Database", popular: true },
-      { name: "JSON & Data Formats", level: 98, experience: "Everyday", icon: "Globe", popular: true }
+      { name: "ETL / ELT Pipelines", level: 96, experience: "4 Yrs", icon: "GitBranch", popular: true },
+      { name: "Logstash", level: 95, experience: "4 Yrs", icon: "GitMerge", popular: true },
+      { name: "Elasticsearch", level: 95, experience: "4 Yrs", icon: "Search", popular: true },
+      { name: "Python", level: 94, experience: "4 Yrs", icon: "FileCode", popular: true },
+      { name: "Go (Golang)", level: 88, experience: "3 Yrs", icon: "Zap", popular: true },
+      { name: "Ruby", level: 85, experience: "3 Yrs", icon: "Code2" },
+      { name: "SQL & Relational DBs", level: 90, experience: "4 Yrs", icon: "Database", popular: true },
+      { name: "JSON & Data Formats", level: 98, experience: "4 Yrs", icon: "Globe", popular: true }
     ]
   },
   {
     title: "Backend Frameworks & Programming",
     description: "Developing resilient backend APIs, databases, and microservices.",
     skills: [
-      { name: "Django", level: 90, experience: "Framework", icon: "Server", popular: true },
-      { name: "JavaScript & TypeScript", level: 88, experience: "Frontend & Node", icon: "Code2", popular: true },
-      { name: "Java & PHP", level: 84, experience: "Backend", icon: "Layers" },
-      { name: "HTML / HTML5 & CSS", level: 95, experience: "Web UI", icon: "Layout" }
+      { name: "Django", level: 90, experience: "3 Yrs", icon: "Server", popular: true },
+      { name: "JavaScript & TypeScript", level: 88, experience: "3 Yrs", icon: "Code2", popular: true },
+      { name: "Java & PHP", level: 84, experience: "2 Yrs", icon: "Layers" },
+      { name: "HTML / HTML5 & CSS", level: 95, experience: "4 Yrs", icon: "Layout" }
     ]
   },
   {
@@ -196,7 +196,7 @@ export const experiencesData: Experience[] = [
     id: "exp-1",
     role: "Big Data Engineer & Data Analyst",
     company: "Data & Systems Employer",
-    period: "Jan 2016 - Jan 2018",
+    period: "4 Years Experience",
     location: "Addis Abeba, Ethiopia",
     description: [
       "Designed, built, and optimized scalable ETL/ELT pipelines ingesting, parsing, decoding, transforming, and enriching structured and unstructured data.",
