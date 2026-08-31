@@ -116,9 +116,9 @@ export const About: React.FC = () => {
           <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400">
             <ShieldCheck className="w-5 h-5" />
           </div>
-          <h3 className="text-lg font-bold text-white">NoSQL & Relational DBs</h3>
+          <h3 className="text-lg font-bold text-white">Relational SQL Databases</h3>
           <p className="text-sm text-slate-400 leading-relaxed">
-            Experienced with MongoDB, Cassandra, Hbase, DynamoDB, and SQL database systems for resilient data storage.
+            Experienced with PostgreSQL and relational database systems for structured data modeling, query optimization, and storage.
           </p>
         </div>
       </div>

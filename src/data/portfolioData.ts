@@ -3,13 +3,13 @@ import { Project, SkillCategory, Experience } from '../types';
 export const personalInfo = {
   name: "Abebe Adugna",
   title: "Data Engineer & Software Specialist",
-  subtitle: "Expert in Logstash, Elasticsearch, Python, Golang, NoSQL, & Data Pipelines",
+  subtitle: "Expert in Logstash, Elasticsearch, Python, Golang, SQL, & Data Pipelines",
   location: "Addis Abeba, Ethiopia",
   email: "weldatnsaeadua@gmail.com",
   phone: "(+251) 924451224",
   github: "https://github.com/Abebe60?tab=repositories",
   linkedin: "https://linkedin.com",
-  coverLetter: `I am excited to apply for Data Engineering roles and contribute to high-impact technology teams. I have extensive experience designing and developing data pipelines that ingest data from multiple sources and process structured, semi-structured, and unstructured data formats. My technical experience encompasses data extraction, cleaning, validation, transformation, and ETL, as well as storing and organizing processed data in scalable systems like Elasticsearch and NoSQL databases. I am comfortable working with large datasets and developing reliable pipelines that make high-quality data available for analytics and business applications.
+  coverLetter: `I am excited to apply for Data Engineering roles and contribute to high-impact technology teams. I have extensive experience designing and developing data pipelines that ingest data from multiple sources and process structured, semi-structured, and unstructured data formats. My technical experience encompasses data extraction, cleaning, validation, transformation, and ETL, as well as storing and organizing processed data in scalable data storage systems like Elasticsearch and relational databases. I am comfortable working with large datasets and developing reliable pipelines that make high-quality data available for analytics and business applications.
 
 I am particularly interested in joining forward-thinking organizations focused on leveraging technology and data to create meaningful impact. I believe my background in data engineering, ETL development, data integration, and data quality can contribute to building reliable data systems that support informed decision-making. I welcome the opportunity to bring my technical skills, problem-solving ability, and passion for building effective data solutions to your team.`,
   profileSummary: "I am healthy and capable of doing any type of work, disciplined and patient behavior. Excellent relations with everyone and free from any addiction.",
@@ -50,7 +50,7 @@ export const projectsData: Project[] = [
     description: "Data parsing system extracting structured & unstructured data from heterogeneous sources using Logstash, Python, Go, and Ruby to store in Elasticsearch.",
     longDescription: "Architected a flexible data ingestion and transformation platform built for processing diverse enterprise logs and telemetry. Utilizes Logstash Grok filters, Python data parsing scripts, and concurrent Golang workers to parse unstructured text, JSON payloads, and relational records into optimized Elasticsearch indices.",
     category: "Data Engineering",
-    tags: ["Logstash", "Elasticsearch", "Python", "Golang", "Ruby", "NoSQL", "JSON"],
+    tags: ["Logstash", "Elasticsearch", "Python", "Golang", "Ruby", "SQL", "JSON"],
     metrics: [
       { label: "Indexing Latency", value: "< 10ms" },
       { label: "Formats Processed", value: "Structured & Unstructured" },
@@ -62,7 +62,7 @@ export const projectsData: Project[] = [
       "Extensive Logstash filter pipelines for multi-format log transformation",
       "Python and Golang script ingestion layers for high-throughput batching",
       "Dynamic Elasticsearch index templates and mapping optimizations",
-      "Support for NoSQL storage integration including MongoDB & Cassandra"
+      "Robust data validation and exception handling"
     ],
     codeSnippet: `input {
   file {
@@ -110,14 +110,14 @@ output {
   {
     id: "django-golang-backend",
     title: "Django & Golang Microservice Architecture",
-    subtitle: "REST APIs with MongoDB & Cassandra NoSQL",
-    description: "Scalable backend hub combining Django REST framework, Go microservices, and NoSQL databases for high-speed API endpoints.",
-    longDescription: "Engineered a dual-service architecture using Django for administrative ORM workflows and Golang for concurrent API endpoints. Connected to MongoDB and Cassandra for resilient document and time-series data storage.",
+    subtitle: "REST APIs with Relational Databases (SQL)",
+    description: "Scalable backend hub combining Django REST framework, Go microservices, and SQL databases for high-speed API endpoints.",
+    longDescription: "Engineered a dual-service architecture using Django for administrative ORM workflows and Golang for concurrent API endpoints. Connected to PostgreSQL and SQL databases for structured data storage.",
     category: "Backend & APIs",
-    tags: ["Django", "Golang", "Python", "MongoDB", "Cassandra", "PostgreSQL", "JSON"],
+    tags: ["Django", "Golang", "Python", "SQL", "PostgreSQL", "JSON"],
     metrics: [
       { label: "API Speed", value: "<12ms P99" },
-      { label: "NoSQL DBs", value: "Mongo & Cassandra" },
+      { label: "Database Support", value: "PostgreSQL & SQL" },
       { label: "Auth Security", value: "JWT + OAuth2" }
     ],
     githubUrl: "https://github.com/Abebe60?tab=repositories",
@@ -125,7 +125,7 @@ output {
     highlights: [
       "Django REST framework clean controllers and schema serializations",
       "Golang RESTful services for ultra-fast throughput",
-      "Multi-database routing (Relational SQL & NoSQL MongoDB/Cassandra)",
+      "Relational SQL database queries and schema optimizations",
       "Full API documentation and endpoint testing"
     ]
   },
@@ -153,15 +153,15 @@ output {
 
 export const skillCategories: SkillCategory[] = [
   {
-    title: "Data Engineering & NoSQL Databases",
-    description: "Ingesting, parsing, transforming, and querying data across structured and unstructured formats.",
+    title: "Data Engineering & Storage",
+    description: "Ingesting, parsing, transforming, and querying data across structured and semi-structured formats.",
     skills: [
       { name: "Logstash", level: 95, experience: "Primary Tool", icon: "GitMerge", popular: true },
       { name: "Elasticsearch", level: 95, experience: "Primary Tool", icon: "Search", popular: true },
       { name: "Python", level: 94, experience: "Core Stack", icon: "FileCode", popular: true },
       { name: "Go (Golang)", level: 88, experience: "Core Stack", icon: "Zap", popular: true },
-      { name: "NoSQL (MongoDB, Cassandra, Hbase, DynamoDB)", level: 92, experience: "6+ Yrs", icon: "Database", popular: true },
       { name: "Ruby", level: 85, experience: "Data Parsing", icon: "Code2" },
+      { name: "SQL & Relational DBs", level: 90, experience: "Postgres/SQL", icon: "Database", popular: true },
       { name: "JSON & Data Formats", level: 98, experience: "Everyday", icon: "Globe", popular: true }
     ]
   },
@@ -198,6 +198,6 @@ export const experiencesData: Experience[] = [
       "Performed parsing of structured and unstructured data originating from diverse sources using Python, Golang, Ruby, and Logstash to store and index efficiently in Elasticsearch.",
       "Designed data extraction workflows and optimized Elasticsearch index mappings for high search speed."
     ],
-    technologies: ["Logstash", "Elasticsearch", "Python", "Golang", "Ruby", "NoSQL", "JSON", "Linux"]
+    technologies: ["Logstash", "Elasticsearch", "Python", "Golang", "Ruby", "SQL", "JSON", "Linux"]
   }
 ];
