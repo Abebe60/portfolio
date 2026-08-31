@@ -1,0 +1,43 @@
+React Portfolio Project - Simple Guide
+Recommended Technology
+React + Vite
+TypeScript
+Tailwind CSS
+React Router
+Lucide React for icons
+FastAPI + Python (optional backend)
+Portfolio Pages
+Home
+About
+Skills
+Projects
+Contact
+Suggested Structure
+src/
+├── components/
+├── pages/
+├── data/
+├── assets/
+├── App.tsx
+└── main.tsx
+Languages
+Frontend: TypeScript + React
+Backend: Python + FastAPI (optional)
+Database: SQL
+Simple Development Steps
+1. Install Node.js, Git, and VS Code.
+2. Create a React project using Vite.
+3. Build Home, About, Skills, Projects, and Contact pages.
+4. Add responsive styling with Tailwind CSS.
+5. Add your real data engineering projects.
+6. Test on desktop and mobile.
+7. Deploy the portfolio online.
+Important Rules
+Use TypeScript instead of plain JavaScript.
+Keep components small and organized.
+Separate project data from UI components.
+Make the website responsive.
+Do not use too many animations.
+Show real projects and technologies.
+My Recommendation
+Start with React + TypeScript + Vite + Tailwind CSS. Add FastAPI later only if you need a backend.
