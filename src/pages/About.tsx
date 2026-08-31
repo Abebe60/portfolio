@@ -1,8 +1,16 @@
-import React from 'react';
-import { User, Briefcase, GraduationCap, Award, Terminal, CheckCircle2, ShieldCheck, Cpu, Phone, Mail, MapPin, Download } from 'lucide-react';
+import React, { useState } from 'react';
+import { User, Briefcase, GraduationCap, Award, Terminal, CheckCircle2, ShieldCheck, Cpu, Phone, Mail, MapPin, Copy, FileText, Check } from 'lucide-react';
 import { personalInfo, experiencesData } from '../data/portfolioData';
 
 export const About: React.FC = () => {
+  const [copied, setCopied] = useState(false);
+
+  const handleCopyCoverLetter = () => {
+    navigator.clipboard.writeText(personalInfo.coverLetter);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16">
       
@@ -10,7 +18,7 @@ export const About: React.FC = () => {
       <div className="space-y-4 max-w-3xl">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 text-xs font-mono">
           <User className="w-3.5 h-3.5" />
-          <span>PROFILE & CV OVERVIEW</span>
+          <span>PROFILE & COVER LETTER</span>
         </div>
         <h1 className="text-4xl sm:text-5xl font-extrabold text-white tracking-tight">
           {personalInfo.name} — <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">Data Engineer</span>
@@ -18,6 +26,42 @@ export const About: React.FC = () => {
         <p className="text-slate-300 text-base leading-relaxed">
           {personalInfo.bio}
         </p>
+      </div>
+
+      {/* COVER LETTER CARD */}
+      <div className="p-6 sm:p-8 rounded-3xl bg-slate-900/80 border border-slate-800 space-y-4 shadow-xl">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800 pb-4">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400">
+              <FileText className="w-5 h-5" />
+            </div>
+            <div>
+              <h2 className="text-xl font-bold text-white">Professional Cover Letter</h2>
+              <span className="text-xs text-slate-400 font-mono">Ready for Employer Applications</span>
+            </div>
+          </div>
+
+          <button
+            onClick={handleCopyCoverLetter}
+            className="flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-mono font-semibold transition-colors border border-slate-700"
+          >
+            {copied ? (
+              <>
+                <Check className="w-4 h-4 text-emerald-400" />
+                <span className="text-emerald-400">Copied to Clipboard!</span>
+              </>
+            ) : (
+              <>
+                <Copy className="w-4 h-4" />
+                <span>Copy Cover Letter</span>
+              </>
+            )}
+          </button>
+        </div>
+
+        <div className="p-5 rounded-2xl bg-slate-950/80 border border-slate-800/80 text-sm text-slate-300 leading-relaxed space-y-4 font-sans whitespace-pre-line">
+          {personalInfo.coverLetter}
+        </div>
       </div>
 
       {/* PERSONAL PROFILE ATTRIBUTES */}

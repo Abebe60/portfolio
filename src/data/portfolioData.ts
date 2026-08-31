@@ -2,13 +2,16 @@ import { Project, SkillCategory, Experience } from '../types';
 
 export const personalInfo = {
   name: "Abebe Adugna",
-  title: "Data Engineer & Software Developer",
-  subtitle: "Specialist in Elasticsearch, Logstash, Python, Golang, NoSQL, & Data Pipelines",
+  title: "Data Engineer & Software Specialist",
+  subtitle: "Expert in Logstash, Elasticsearch, Python, Golang, NoSQL, & Data Pipelines",
   location: "Addis Abeba, Ethiopia",
   email: "weldatnsaeadua@gmail.com",
   phone: "(+251) 924451224",
   github: "https://github.com/Abebe60?tab=repositories",
   linkedin: "https://linkedin.com",
+  coverLetter: `I am excited to apply for Data Engineering roles and contribute to high-impact technology teams. I have extensive experience designing and developing data pipelines that ingest data from multiple sources and process structured, semi-structured, and unstructured data formats. My technical experience encompasses data extraction, cleaning, validation, transformation, and ETL, as well as storing and organizing processed data in scalable systems like Elasticsearch and NoSQL databases. I am comfortable working with large datasets and developing reliable pipelines that make high-quality data available for analytics and business applications.
+
+I am particularly interested in joining forward-thinking organizations focused on leveraging technology and data to create meaningful impact. I believe my background in data engineering, ETL development, data integration, and data quality can contribute to building reliable data systems that support informed decision-making. I welcome the opportunity to bring my technical skills, problem-solving ability, and passion for building effective data solutions to your team.`,
   profileSummary: "I am healthy and capable of doing any type of work, disciplined and patient behavior. Excellent relations with everyone and free from any addiction.",
   bio: "Disciplined, highly adaptable Data Engineer & Software Developer based in Addis Abeba, Ethiopia. Experienced with Logstash, Elasticsearch, and parsing data coming from different sources with different formats (both structured and unstructured) using Python, Golang, Ruby, and Logstash to index and query in Elasticsearch datastreams.",
   educationList: [
