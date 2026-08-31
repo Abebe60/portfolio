@@ -6,7 +6,7 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-8.0-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
 
-A high-performance, dark-themed responsive portfolio web application built with **React 18**, **TypeScript**, **Vite**, and **Tailwind CSS**. Designed to showcase the 4-year professional experience, scalable ETL/ELT pipelines, and academic achievements of **Abebe Adugna**.
+A high-performance, dark-themed responsive portfolio web application built with **React 18**, **TypeScript**, **Vite**, and **Tailwind CSS**. Designed to showcase scalable ETL/ELT data pipelines, data decoding workflows, and software engineering capabilities.
 
 ---
 
@@ -14,10 +14,10 @@ A high-performance, dark-themed responsive portfolio web application built with 
 
 - **Interactive Data Pipeline Visualizer**: Real-time visual flow demonstrating Logstash ingestion, decoding filters, and Elasticsearch indexing.
 - **Dynamic Project Showcase**: Filterable portfolio grid (Data Engineering, AI & LLMs, Backend APIs, Full-Stack) featuring technical modals and custom Logstash Grok filter code snippets.
-- **Comprehensive Skills Matrix**: Categorized technology stacks with visual proficiency indicators, live search filtering, and soft skill breakdowns.
-- **Universal Cover Letter & Profile**: Integrated copy-to-clipboard cover letter formatted for Big Data Engineering and Data Analyst job applications.
-- **Validated Contact Form**: Interactive contact channel with quick email copy and response SLA guarantees.
-- **Glassmorphism Design System**: Modern UI with vibrant cyan/emerald accents, ambient glows, responsive mobile navigation, and micro-interactions.
+- **Comprehensive Skills Matrix**: Categorized technology stacks with visual proficiency indicators and live search filtering.
+- **Professional Cover Letter**: Integrated copy-to-clipboard cover letter formatted for Big Data Engineering and Data Analyst job applications.
+- **Validated Contact Form**: Interactive contact channel with quick email copy capability.
+- **Glassmorphism Design System**: Modern UI with vibrant cyan/emerald accents, ambient glows, and responsive mobile navigation.
 
 ---
 
@@ -32,13 +32,10 @@ A high-performance, dark-themed responsive portfolio web application built with 
 
 ---
 
-## 🎓 Education & Background
+## 🎓 Education
 
-- **Bachelor of Science and Technology in Computer Science (2015)**
+- **Bachelor of Science and Technology in Computer Science**
   - *Dire Dawa University Institute of Technology*
-  - **CGPA**: `3.52` | **Exit Exam Score**: `71 / 100`
-- **Preparatory Education (2011)**: *Tewodros Preparatory School* (Grade 11 - 12)
-- **Secondary Education (2009)**: *Tewodros Secondary School* (Grade 9 - 10)
 
 ---
 
@@ -89,10 +86,9 @@ This portfolio is production-ready and can be deployed in 30 seconds on **Vercel
 ## 📬 Contact Information
 
 - **Name**: Abebe Adugna
-- **Title**: Big Data Engineer & Data Analyst
+- **Role**: Big Data Engineer & Data Analyst
 - **Location**: Addis Abeba, Ethiopia
 - **Email**: [weldatnsaeadua@gmail.com](mailto:weldatnsaeadua@gmail.com)
-- **Phone**: (+251) 924451224
 - **GitHub**: [github.com/Abebe60](https://github.com/Abebe60?tab=repositories)
 
 ---
